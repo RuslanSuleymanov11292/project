@@ -1,0 +1,154 @@
+@media screen and (max-width:768px) {
+
+    .link__user__authorization{
+       margin-bottom: 5px;
+    }
+
+    .user{
+        max-width: 96%;
+       }
+   
+
+
+   .content__center{
+    flex-basis: 448px;
+   }
+
+   
+   .content__right{
+       display: none;
+   }
+
+
+.track__durations >  .durations{
+    width: 100%;
+       position: absolute;
+       bottom: 60px;
+       left: 0px;
+   }
+
+   .track__durations > .volume{
+    margin: 0px;
+}
+
+.media__player__track__info{
+    display: none;
+}
+
+.container > .player{
+    width: 100%;
+}
+  
+
+    
+}
+
+@media screen and (max-width:425px) {
+    .search-form{
+        margin-bottom: 20px;
+    }
+
+    .container > .sidebar{
+        width:350px;
+        
+    }
+
+    .container >.content__center{
+      width: 398px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .sidebar__list{
+        display: flex;
+    flex-direction: column;
+    width: 398px;
+    }
+
+    .logo{
+        margin:25px 120px 0px 0px;
+    }
+
+    .container > .user{
+       width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .sidebar__list> .sidebar__item{
+        margin: 0px 0px 10px;
+    }
+
+    .track__durations > .volume , .track__time{
+        display: none;
+        
+    }
+
+    .player{
+        display: flex;
+        justify-content: center;
+    }
+  
+
+
+
+}
+
+@media screen and (max-width:375px) {
+    .sidebar__list{
+        width: 346px;
+    }
+
+   .content > .container > .content__center {
+        width: 347px;
+        }
+
+   
+}  
+
+
+@media screen  and (max-width:320px) {
+    .sidebar__list{
+        width: 290px;
+    }
+
+   .content > .container >.content__center {
+        width: 290px;
+    }
+
+    .container > .sidebar {
+        width: 290px;
+    }
+
+    .content__item{
+        padding: 31px 9px 15px 9px;
+    }
+
+
+    .track__title{
+        width: 82px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    }
+
+    .track__desc{
+        width: 82px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    }
+
+    .track__info__r {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+        align-items: baseline;
+    }
+
+
+
+}
+
